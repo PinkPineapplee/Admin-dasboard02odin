@@ -1,0 +1,7 @@
+the first page is divided into two menu bar and body
+body is divided into two main parts search bar and main-content bar
+main-content bar is divided in to three projects, Announcements and trending divs
+use grid to make projects container
+use divs to make announcements and trending
+import all icons
+import fonts
