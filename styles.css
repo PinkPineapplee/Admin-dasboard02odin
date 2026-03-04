@@ -5,5 +5,22 @@ body{
     height: 100vh;
     width: 100vw;
     display:grid;
-    background-color: #444;
+    grid-area: repeat(3, 1fr) / repeat(5, 1fr);
+    background-color: #202020;
+}
+
+img[src$=".svg"]{
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+
+img{
+    width: 30px;
+    height:30px
+}
+
+ul>li{
+    list-style: none;
 }
