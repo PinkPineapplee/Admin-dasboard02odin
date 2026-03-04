@@ -5,7 +5,7 @@ body{
     height: 100vh;
     width: 100vw;
     display:grid;
-    grid-template: repeat(3, 1fr) / repeat(5, 1fr);
+    grid-template: 20% repeat(2, 1fr) / repeat(5, 1fr);
     background-color: #202020;
 }
 
@@ -36,7 +36,7 @@ ul>li{
    grid-area : 1 /2 /2 / 6; 
    background-color: hsl(51, 100%, 50%);
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: 70% 1fr;
    grid-template-rows: 10vh 1fr;
 }
 
@@ -52,8 +52,12 @@ ul>li{
 .navigation-menu-bar .name-icon{
     grid-area: 2/1/3/2;
     display:flex;
+    
+     background-color: #b05bb7;
 }
-
+.more-info-buttons{
+    background-color: antiquewhite;
+}
 /* .header-nav-bar #name-div>ul:last-child{
     display: flex;
 } */
