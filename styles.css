@@ -107,7 +107,12 @@ input{
 }
 
 .side-bar div{
-    width: 20vh;
+    width: 40vh;
+     
+}
+
+.side-bar ul{
+    background-color: #202020;
 }
 .item{
     background-color: #202020;
@@ -160,4 +165,5 @@ div#trending{
 }
 div#trending ul li{
     display: flex;
+    background-color: #202020;
 }
