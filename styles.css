@@ -149,6 +149,9 @@ input{
     padding: 0;
 }
 
+div#trending{
+    color: white;
+}
 div#trending ul li{
     display: flex;
 }
