@@ -6,7 +6,7 @@ body{
     width: 100vw;
     display:grid;
     grid-template: 20vh repeat(2, 1fr) / repeat(5, 1fr);
-    background-color: #202020;
+    background-color: #3c3c3c;
 }
 
 svg.icons{
@@ -35,6 +35,7 @@ ul>li{
 }
 
 .navigation-menu-bar{
+    background-color: #202020;
    grid-area : 1 /2 /2 / 6; 
    display: grid;
    grid-template-columns: auto 18rem;
@@ -43,7 +44,6 @@ ul>li{
 
 .navigation-menu-bar #search{
     width: 70%;
-    border: 3px solid rgb(255, 255, 255);
     display: flex;
     align-items: center;
 
@@ -57,12 +57,10 @@ ul>li{
 .navigation-menu-bar .name-icon{
     grid-area: 2/1/3/2;
     display:flex;
-     background-color: #b7785b;
-      justify-content: start;
+    justify-content: start;
     align-items: center;
 }
 .navigation-menu-bar .more-info-buttons{
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +93,7 @@ input{
 }
 .main-content{
     grid-area: 2 /-5 /4/-2;
-    background-color: #00bfff;
+    color: white;
 }
 .main-content div#container{
     display: grid;
@@ -103,8 +101,7 @@ input{
 }
 .side-bar{
     grid-area: 2/ 5/ 4 / 5;
-   
-     background-color: #b05bb7;
+    background-color: #b05bb7;
 }
 
 .item{
@@ -117,15 +114,21 @@ input{
     margin: 10px;
 }
 .item p{
-    height: 5rem;
-    background-color: #00bfff;
+    margin: 0;
+    height: 6rem;
     overflow: hidden;
+    font-family: 'DancingScriptRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+.item h5{
+    margin: 0;
+    padding: 4px 2px;
+    font-size: medium;
 }
 .item .icons{
     display: flex;
-    justify-content: end;
-    background-color: aquamarine;
-   
+    justify-content: end;  
 }
 #name-div ul>#name-div-profile{
     display:flex;
@@ -144,4 +147,8 @@ input{
 .name-icon ul li p{
     margin: 0%;
     padding: 0;
+}
+
+div#trending ul li{
+    display: flex;
 }
