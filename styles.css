@@ -117,7 +117,8 @@ input{
     margin: 10px;
 }
 
-.item .icons{
-    display: flex;
-    color: white;
+#name-div ul>#name-div-profile{
+    display:flex;
+    align-items: center;
+    
 }
