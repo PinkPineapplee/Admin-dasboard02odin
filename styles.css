@@ -52,6 +52,7 @@ ul>li{
     grid-area: 1/1/2/3;
     display: flex;
      border: 3px solid rgb(199, 31, 31);
+
     
 }
 .navigation-menu-bar .name-icon{
@@ -101,7 +102,7 @@ input{
 }
 .side-bar{
     grid-area: 2/ 5/ 4 / 5;
-    background-color: #b05bb7;
+    color: white;
 }
 
 .item{
