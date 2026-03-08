@@ -9,10 +9,10 @@ body{
     background-color: #202020;
 }
 
-img[src$=".svg"]{
+svg.icons{
   width: 20px;
   height: 20px;
-  color: white;
+  fill:white;
 }
 
 
@@ -34,7 +34,6 @@ ul>li{
 
 .navigation-menu-bar{
    grid-area : 1 /2 /2 / 6; 
-   background-color: hsl(51, 100%, 50%);
    display: grid;
    grid-template-columns: auto 18rem;
    grid-template-rows: 10vh 10vh;
