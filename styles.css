@@ -106,6 +106,9 @@ input{
     color: white;
 }
 
+.side-bar div{
+    width: 20vh;
+}
 .item{
     background-color: #202020;
     border-left:5px solid pink;
