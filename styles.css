@@ -176,3 +176,8 @@ div#trending ul li{
      display: flex;
     align-items: center;
 }
+
+div#name-div ul>li{
+    display: flex;
+    align-items: center;
+}
