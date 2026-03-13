@@ -52,7 +52,6 @@ ul>li{
 .header-nav-bar{
     grid-area: 1/1/2/3;
     display: flex;
-    border: 3px solid rgb(199, 31, 31);
 
     
 }
@@ -180,4 +179,15 @@ div#trending ul li{
 div#name-div ul>li{
     display: flex;
     align-items: center;
+}
+
+.drop-down-menu h2{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.drop-down-menu h2 svg.icons{
+    font-size: 50px;
 }
